@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7088A2591C1FF40E001449C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7088A2581C1FF40E001449C2 /* main.m */; };
+		7088A25C1C1FF40E001449C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7088A25B1C1FF40E001449C2 /* AppDelegate.m */; };
+		7088A25F1C1FF40E001449C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7088A25E1C1FF40E001449C2 /* ViewController.m */; };
+		7088A2621C1FF40E001449C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7088A2601C1FF40E001449C2 /* Main.storyboard */; };
+		7088A2641C1FF40E001449C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7088A2631C1FF40E001449C2 /* Assets.xcassets */; };
+		7088A2671C1FF40E001449C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7088A2651C1FF40E001449C2 /* LaunchScreen.storyboard */; };
+		7088A2721C1FF40E001449C2 /* nexcomdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7088A2711C1FF40E001449C2 /* nexcomdemoTests.m */; };
+		7088A27D1C1FF40E001449C2 /* nexcomdemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7088A27C1C1FF40E001449C2 /* nexcomdemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7088A26E1C1FF40E001449C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7088A24C1C1FF40E001449C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7088A2531C1FF40E001449C2;
+			remoteInfo = nexcomdemo;
+		};
+		7088A2791C1FF40E001449C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7088A24C1C1FF40E001449C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7088A2531C1FF40E001449C2;
+			remoteInfo = nexcomdemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7088A2541C1FF40E001449C2 /* nexcomdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nexcomdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7088A2581C1FF40E001449C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7088A25A1C1FF40E001449C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7088A25B1C1FF40E001449C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7088A25D1C1FF40E001449C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7088A25E1C1FF40E001449C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7088A2611C1FF40E001449C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7088A2631C1FF40E001449C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7088A2661C1FF40E001449C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7088A2681C1FF40E001449C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7088A26D1C1FF40E001449C2 /* nexcomdemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nexcomdemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7088A2711C1FF40E001449C2 /* nexcomdemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nexcomdemoTests.m; sourceTree = "<group>"; };
+		7088A2731C1FF40E001449C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7088A2781C1FF40E001449C2 /* nexcomdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nexcomdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7088A27C1C1FF40E001449C2 /* nexcomdemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nexcomdemoUITests.m; sourceTree = "<group>"; };
+		7088A27E1C1FF40E001449C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7088A2511C1FF40E001449C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7088A26A1C1FF40E001449C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7088A2751C1FF40E001449C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7088A24B1C1FF40E001449C2 = {
+			isa = PBXGroup;
+			children = (
+				7088A2561C1FF40E001449C2 /* nexcomdemo */,
+				7088A2701C1FF40E001449C2 /* nexcomdemoTests */,
+				7088A27B1C1FF40E001449C2 /* nexcomdemoUITests */,
+				7088A2551C1FF40E001449C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7088A2551C1FF40E001449C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7088A2541C1FF40E001449C2 /* nexcomdemo.app */,
+				7088A26D1C1FF40E001449C2 /* nexcomdemoTests.xctest */,
+				7088A2781C1FF40E001449C2 /* nexcomdemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7088A2561C1FF40E001449C2 /* nexcomdemo */ = {
+			isa = PBXGroup;
+			children = (
+				7088A25A1C1FF40E001449C2 /* AppDelegate.h */,
+				7088A25B1C1FF40E001449C2 /* AppDelegate.m */,
+				7088A25D1C1FF40E001449C2 /* ViewController.h */,
+				7088A25E1C1FF40E001449C2 /* ViewController.m */,
+				7088A2601C1FF40E001449C2 /* Main.storyboard */,
+				7088A2631C1FF40E001449C2 /* Assets.xcassets */,
+				7088A2651C1FF40E001449C2 /* LaunchScreen.storyboard */,
+				7088A2681C1FF40E001449C2 /* Info.plist */,
+				7088A2571C1FF40E001449C2 /* Supporting Files */,
+			);
+			path = nexcomdemo;
+			sourceTree = "<group>";
+		};
+		7088A2571C1FF40E001449C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7088A2581C1FF40E001449C2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7088A2701C1FF40E001449C2 /* nexcomdemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7088A2711C1FF40E001449C2 /* nexcomdemoTests.m */,
+				7088A2731C1FF40E001449C2 /* Info.plist */,
+			);
+			path = nexcomdemoTests;
+			sourceTree = "<group>";
+		};
+		7088A27B1C1FF40E001449C2 /* nexcomdemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7088A27C1C1FF40E001449C2 /* nexcomdemoUITests.m */,
+				7088A27E1C1FF40E001449C2 /* Info.plist */,
+			);
+			path = nexcomdemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7088A2531C1FF40E001449C2 /* nexcomdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7088A2811C1FF40E001449C2 /* Build configuration list for PBXNativeTarget "nexcomdemo" */;
+			buildPhases = (
+				7088A2501C1FF40E001449C2 /* Sources */,
+				7088A2511C1FF40E001449C2 /* Frameworks */,
+				7088A2521C1FF40E001449C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nexcomdemo;
+			productName = nexcomdemo;
+			productReference = 7088A2541C1FF40E001449C2 /* nexcomdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7088A26C1C1FF40E001449C2 /* nexcomdemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7088A2841C1FF40E001449C2 /* Build configuration list for PBXNativeTarget "nexcomdemoTests" */;
+			buildPhases = (
+				7088A2691C1FF40E001449C2 /* Sources */,
+				7088A26A1C1FF40E001449C2 /* Frameworks */,
+				7088A26B1C1FF40E001449C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7088A26F1C1FF40E001449C2 /* PBXTargetDependency */,
+			);
+			name = nexcomdemoTests;
+			productName = nexcomdemoTests;
+			productReference = 7088A26D1C1FF40E001449C2 /* nexcomdemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7088A2771C1FF40E001449C2 /* nexcomdemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7088A2871C1FF40E001449C2 /* Build configuration list for PBXNativeTarget "nexcomdemoUITests" */;
+			buildPhases = (
+				7088A2741C1FF40E001449C2 /* Sources */,
+				7088A2751C1FF40E001449C2 /* Frameworks */,
+				7088A2761C1FF40E001449C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7088A27A1C1FF40E001449C2 /* PBXTargetDependency */,
+			);
+			name = nexcomdemoUITests;
+			productName = nexcomdemoUITests;
+			productReference = 7088A2781C1FF40E001449C2 /* nexcomdemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7088A24C1C1FF40E001449C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "kuang-ting liu";
+				TargetAttributes = {
+					7088A2531C1FF40E001449C2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7088A26C1C1FF40E001449C2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7088A2531C1FF40E001449C2;
+					};
+					7088A2771C1FF40E001449C2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7088A2531C1FF40E001449C2;
+					};
+				};
+			};
+			buildConfigurationList = 7088A24F1C1FF40E001449C2 /* Build configuration list for PBXProject "nexcomdemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7088A24B1C1FF40E001449C2;
+			productRefGroup = 7088A2551C1FF40E001449C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7088A2531C1FF40E001449C2 /* nexcomdemo */,
+				7088A26C1C1FF40E001449C2 /* nexcomdemoTests */,
+				7088A2771C1FF40E001449C2 /* nexcomdemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7088A2521C1FF40E001449C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7088A2671C1FF40E001449C2 /* LaunchScreen.storyboard in Resources */,
+				7088A2641C1FF40E001449C2 /* Assets.xcassets in Resources */,
+				7088A2621C1FF40E001449C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7088A26B1C1FF40E001449C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7088A2761C1FF40E001449C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7088A2501C1FF40E001449C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7088A25F1C1FF40E001449C2 /* ViewController.m in Sources */,
+				7088A25C1C1FF40E001449C2 /* AppDelegate.m in Sources */,
+				7088A2591C1FF40E001449C2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7088A2691C1FF40E001449C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7088A2721C1FF40E001449C2 /* nexcomdemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7088A2741C1FF40E001449C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7088A27D1C1FF40E001449C2 /* nexcomdemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7088A26F1C1FF40E001449C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7088A2531C1FF40E001449C2 /* nexcomdemo */;
+			targetProxy = 7088A26E1C1FF40E001449C2 /* PBXContainerItemProxy */;
+		};
+		7088A27A1C1FF40E001449C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7088A2531C1FF40E001449C2 /* nexcomdemo */;
+			targetProxy = 7088A2791C1FF40E001449C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7088A2601C1FF40E001449C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7088A2611C1FF40E001449C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7088A2651C1FF40E001449C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7088A2661C1FF40E001449C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7088A27F1C1FF40E001449C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7088A2801C1FF40E001449C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7088A2821C1FF40E001449C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nexcomdemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thlight.nexcomdemo.nexcomdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7088A2831C1FF40E001449C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nexcomdemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thlight.nexcomdemo.nexcomdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7088A2851C1FF40E001449C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = nexcomdemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thlight.nexcomdemo.nexcomdemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nexcomdemo.app/nexcomdemo";
+			};
+			name = Debug;
+		};
+		7088A2861C1FF40E001449C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = nexcomdemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thlight.nexcomdemo.nexcomdemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nexcomdemo.app/nexcomdemo";
+			};
+			name = Release;
+		};
+		7088A2881C1FF40E001449C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = nexcomdemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thlight.nexcomdemo.nexcomdemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nexcomdemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7088A2891C1FF40E001449C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = nexcomdemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thlight.nexcomdemo.nexcomdemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nexcomdemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7088A24F1C1FF40E001449C2 /* Build configuration list for PBXProject "nexcomdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7088A27F1C1FF40E001449C2 /* Debug */,
+				7088A2801C1FF40E001449C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7088A2811C1FF40E001449C2 /* Build configuration list for PBXNativeTarget "nexcomdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7088A2821C1FF40E001449C2 /* Debug */,
+				7088A2831C1FF40E001449C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7088A2841C1FF40E001449C2 /* Build configuration list for PBXNativeTarget "nexcomdemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7088A2851C1FF40E001449C2 /* Debug */,
+				7088A2861C1FF40E001449C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7088A2871C1FF40E001449C2 /* Build configuration list for PBXNativeTarget "nexcomdemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7088A2881C1FF40E001449C2 /* Debug */,
+				7088A2891C1FF40E001449C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7088A24C1C1FF40E001449C2 /* Project object */;
+}
