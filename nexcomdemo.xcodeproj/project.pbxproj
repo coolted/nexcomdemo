@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		706AB1361C315FD700D92044 /* s1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 706AB1331C315FD700D92044 /* s1.jpg */; };
+		706AB1371C315FD700D92044 /* s2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 706AB1341C315FD700D92044 /* s2.jpg */; };
+		706AB1381C315FD700D92044 /* s3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 706AB1351C315FD700D92044 /* s3.jpg */; };
 		7088A2591C1FF40E001449C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7088A2581C1FF40E001449C2 /* main.m */; };
 		7088A25C1C1FF40E001449C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7088A25B1C1FF40E001449C2 /* AppDelegate.m */; };
 		7088A25F1C1FF40E001449C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7088A25E1C1FF40E001449C2 /* ViewController.m */; };
@@ -15,6 +18,10 @@
 		7088A2671C1FF40E001449C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7088A2651C1FF40E001449C2 /* LaunchScreen.storyboard */; };
 		7088A2721C1FF40E001449C2 /* nexcomdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7088A2711C1FF40E001449C2 /* nexcomdemoTests.m */; };
 		7088A27D1C1FF40E001449C2 /* nexcomdemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7088A27C1C1FF40E001449C2 /* nexcomdemoUITests.m */; };
+		7088A2981C200146001449C2 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7088A2971C200146001449C2 /* CoreBluetooth.framework */; };
+		7088A29A1C200554001449C2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7088A2991C200554001449C2 /* CoreLocation.framework */; };
+		70FADF531C2161FA00A31B5E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FADF4E1C2161FA00A31B5E /* icon.png */; };
+		70FADF541C2161FA00A31B5E /* load.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70FADF4F1C2161FA00A31B5E /* load.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		706AB1331C315FD700D92044 /* s1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = s1.jpg; path = res/s1.jpg; sourceTree = "<group>"; };
+		706AB1341C315FD700D92044 /* s2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = s2.jpg; path = res/s2.jpg; sourceTree = "<group>"; };
+		706AB1351C315FD700D92044 /* s3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = s3.jpg; path = res/s3.jpg; sourceTree = "<group>"; };
 		7088A2541C1FF40E001449C2 /* nexcomdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nexcomdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7088A2581C1FF40E001449C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7088A25A1C1FF40E001449C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,10 @@
 		7088A2781C1FF40E001449C2 /* nexcomdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nexcomdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7088A27C1C1FF40E001449C2 /* nexcomdemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nexcomdemoUITests.m; sourceTree = "<group>"; };
 		7088A27E1C1FF40E001449C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7088A2971C200146001449C2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		7088A2991C200554001449C2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		70FADF4E1C2161FA00A31B5E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = res/icon.png; sourceTree = "<group>"; };
+		70FADF4F1C2161FA00A31B5E /* load.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = load.jpg; path = res/load.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7088A29A1C200554001449C2 /* CoreLocation.framework in Frameworks */,
+				7088A2981C200146001449C2 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +97,9 @@
 		7088A24B1C1FF40E001449C2 = {
 			isa = PBXGroup;
 			children = (
+				7088A2991C200554001449C2 /* CoreLocation.framework */,
+				7088A2971C200146001449C2 /* CoreBluetooth.framework */,
+				7088A28A1C1FF465001449C2 /* res */,
 				7088A2561C1FF40E001449C2 /* nexcomdemo */,
 				7088A2701C1FF40E001449C2 /* nexcomdemoTests */,
 				7088A27B1C1FF40E001449C2 /* nexcomdemoUITests */,
@@ -138,6 +157,18 @@
 				7088A27E1C1FF40E001449C2 /* Info.plist */,
 			);
 			path = nexcomdemoUITests;
+			sourceTree = "<group>";
+		};
+		7088A28A1C1FF465001449C2 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				706AB1331C315FD700D92044 /* s1.jpg */,
+				706AB1341C315FD700D92044 /* s2.jpg */,
+				706AB1351C315FD700D92044 /* s3.jpg */,
+				70FADF4E1C2161FA00A31B5E /* icon.png */,
+				70FADF4F1C2161FA00A31B5E /* load.jpg */,
+			);
+			name = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +238,7 @@
 				TargetAttributes = {
 					7088A2531C1FF40E001449C2 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6X7G37WB89;
 					};
 					7088A26C1C1FF40E001449C2 = {
 						CreatedOnToolsVersion = 7.2;
@@ -243,9 +275,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70FADF531C2161FA00A31B5E /* icon.png in Resources */,
+				70FADF541C2161FA00A31B5E /* load.jpg in Resources */,
 				7088A2671C1FF40E001449C2 /* LaunchScreen.storyboard in Resources */,
+				706AB1381C315FD700D92044 /* s3.jpg in Resources */,
+				706AB1361C315FD700D92044 /* s1.jpg in Resources */,
 				7088A2641C1FF40E001449C2 /* Assets.xcassets in Resources */,
 				7088A2621C1FF40E001449C2 /* Main.storyboard in Resources */,
+				706AB1371C315FD700D92044 /* s2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +450,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = nexcomdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thlight.nexcomdemo.nexcomdemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.THLight.Nexcom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +465,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = nexcomdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thlight.nexcomdemo.nexcomdemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.THLight.Nexcom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +543,7 @@
 				7088A2831C1FF40E001449C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7088A2841C1FF40E001449C2 /* Build configuration list for PBXNativeTarget "nexcomdemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +552,7 @@
 				7088A2861C1FF40E001449C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7088A2871C1FF40E001449C2 /* Build configuration list for PBXNativeTarget "nexcomdemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +561,7 @@
 				7088A2891C1FF40E001449C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
